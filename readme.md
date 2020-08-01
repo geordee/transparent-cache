@@ -1,6 +1,6 @@
-# Transparent Proxy Example
+# Transparent Cache Example
 
-Demonstrate a transparent proxy configuration using Nginx.
+Demonstrate a transparent cache configuration using Nginx.
 
 The project uses an OpenResty server, which is a platform
 based on Nginx and LuaJIT.
@@ -14,7 +14,7 @@ based on Nginx and LuaJIT.
 ## Develop
 
 ```bash
-mkdir transparent-proxy
+mkdir transparent-cache
 lapis new --lua
 lapis server
 ```
